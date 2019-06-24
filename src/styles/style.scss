@@ -1,0 +1,11 @@
+@import "variables";
+@import "fonts";
+@import "header";
+@import "main";
+@import "articles";
+@import "footer";
+* {
+  box-sizing: border-box;
+  margin: $margin;
+  padding: $padding;
+}

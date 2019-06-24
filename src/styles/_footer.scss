@@ -1,0 +1,222 @@
+
+.section-cards {
+  border-left: 1px solid $bg_sections;
+  border-right: 1px solid $bg_sections;
+  border-bottom: 1px solid $bg_sections;
+}
+.shell {
+  width: $width - 590px;
+  height: 260px;;
+}
+.card {
+  display: $display;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 3px solid $main_color_1;
+  border-radius: 0;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 97%;
+  height: 95%;
+  margin: auto;
+}
+.card__name__header {
+  width: 100%;
+  font-family: $FF_Calibri;
+  font-size: x-large;
+  font-weight: bold;
+  color: $color_links;
+  text-align: right;
+}
+.card__name__text {
+  width: 100%;
+  font-family: $FF_Calibri;
+  font-weight: normal;
+  font-style: italic;
+  font-size: smaller;
+  color: $main_color_1;
+  text-align: right;
+}
+.card__text {
+  align-self: center;
+  width:90%;
+  font-family: $FF_Calibri;
+  font-weight: normal;
+  font-style: normal;
+  font-size: smaller;
+  color: $color_links;
+  text-align: left;
+}
+.card__contacts {
+  width: 50%;
+  font-family: $FF_Calibri;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  color: $color_links;
+  text-align: left;
+  align-self: flex-end;
+}
+
+.button {
+  background-color: $main_color_3;
+  width: $width - 970px;
+  color: $T_color;
+  font-family: $FF_Calibri;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  border: 0 solid;
+  border-radius: 3%;
+  height: 40px;
+}
+
+.nav-link {
+  font-family: $FF_Calibri;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+}
+.section-cards{
+  display: $display;
+  width: $width;
+  margin: auto;
+}
+.card__button_more{
+  display: $display;
+  width: $width;
+  height: 70px;
+  margin: 0;
+}
+.button_grey{
+  background-color:$main_color_2;
+  width: $width - 970px;
+  color: $color_links;
+  font-family: $FF_Calibri;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  border: 0 solid;
+  border-radius: 3%;
+  height: 40px;
+  margin: auto;
+}
+#more{
+  display: none;
+}
+.footer_bar {
+  background-color: $main_color_1;
+  display: $display;
+  width: 100%;
+  height: 90px;
+}
+.footer__content{
+  justify-content: space-between;
+  width: $width;
+  margin: auto;
+}
+.footer_main{
+  display: $display;
+  width: 100%;
+  background-color: $bg_sections;
+  height: 400px;
+  flex-direction: column;
+}
+.simple_text{
+  font-family: $FF_Calibri;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.footer_main_contacts {
+  width: $width - 950px;
+}
+.news{
+  background-color: $bg_sections;
+}
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-color:$main_color_2;
+  border: none;
+  text-align: center;
+  border-radius: 1%;
+}
+.article, .reviews{
+  height: 330px;
+  font-family: $FF_Calibri;
+  font-size: smaller;
+  text-align: left;
+}
+.arrow-right{
+  transform: rotate(180deg);
+}
+.slider{
+  padding-bottom: 10px;
+}
+#second_article,#third_article, #review-2, #review-3 {
+  display: none;
+}
+.icon-gplus, .icon-facebook, .icon-linkedin, .icon-vkontakte,.icon-youtube {
+  font-family: fontello;
+  font-style: normal;
+  font-weight: normal;
+  font-size: medium;
+  color: $color_1;
+}
+.message_form {
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px solid $color_1;
+  background-color: $bg_sections ;
+  margin-bottom: 10px;
+}
+.icon-right-dir {
+  color: $color_of_button;
+  line-height: 10px;
+}
+footer{
+  width: 100%;
+  height: 500px;
+  background-color: $bg_sections;
+  color: $color_1;
+  font-family: $FF_Lato;
+  font-size: small;
+}
+.sub_footer {
+  border-radius: 35px;
+  background-color: $color_of_button;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: none;
+  width: 95px;
+  height: 30px;
+  font-family: $FF_Lato;
+  font-weight:bold ;
+  font-size: small;
+}
+.footer_links, .footer_links:hover {
+  text-decoration: none;
+  color: $color_1;
+  font-family: $FF_Lato;
+  text-align: center;
+}
+h6 {
+  font-family: $FF_Lato;
+  font-weight: bold;
+  color: $color_links;
+  font-size: medium;
+}
+h4{
+  font-family:$FF_Calibri;
+  font-style: italic;
+  font-weight: normal;
+  color: $color_links;
+  text-align: left;
+}

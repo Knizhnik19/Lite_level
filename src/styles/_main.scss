@@ -1,0 +1,36 @@
+main {
+  height: 408px;
+  background-color: $main_color_2;
+}
+.section {
+  width: $width;
+  height: 408px;
+  margin: auto;
+  background-image: url(../src/img/Layer_1.png);
+}
+.section__main__text {
+  text-align: right;
+  height: $S_height;
+  margin-top: 70px;
+}
+
+.input {
+  position: relative;
+  width: 300px;
+  height: $S_height - 50px;
+}
+.input__sub {
+  width: 80px;
+  height: 30px;
+  border-radius:0 5% 5% 0;
+  border: 1px solid $color_links;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.input__tel {
+  width: 220px;
+  height: 30px;
+  border-radius:5% 0 0 5%;
+  border: 0 solid white;
+}

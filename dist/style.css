@@ -1,0 +1,456 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXjeu.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Calibri Italic"), local("Calibri-Italic"), url(https://fonts.gstatic.com/l/font?kit=J7adnpV-BGlaFfdAhLQo6btP&skey=36a3d5758e0e2f58&v=v10) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Calibri Bold Italic"), local("Calibri-BoldItalic"), url(https://fonts.gstatic.com/l/font?kit=J7aYnpV-BGlaFfdAhLQgUp5aHRge&skey=8b00183e5f6700b6&v=v10) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Calibri"), url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY6w&skey=a1029226f80653a8&v=v10) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Calibri Bold"), local("Calibri-Bold"), url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHw&skey=cd2dd6afe6bf0eb2&v=v10) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../../src/fonts/fontello.svg");
+  src: url("../../src/fonts/fontello.eot") format("embedded-opentype"), url("../../src/fonts/fontello.woff") format("woff"), url("../../src/fonts/fontello.ttf") format("truetype"), url("../../src/fonts/fontello.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+header {
+  background-color: #43b1d2;
+  width: 100%;
+  height: 90px; }
+
+.nav__contact, .top-nav_menu {
+  text-align: right; }
+
+.nav__menu__link {
+  margin-left: 20px;
+  text-align: right; }
+
+.nav__menu__link:link {
+  color: #494848;
+  text-decoration: none; }
+
+.nav__menu__link:active {
+  color: white; }
+
+.nav__menu__link:visited {
+  color: white; }
+
+main {
+  height: 408px;
+  background-color: #cbd4e6; }
+
+.section {
+  width: 1140px;
+  height: 408px;
+  margin: auto;
+  background-image: url(../src/img/Layer_1.png); }
+
+.section__main__text {
+  text-align: right;
+  height: 130px;
+  margin-top: 70px; }
+
+.input {
+  position: relative;
+  width: 300px;
+  height: 80px; }
+
+.input__sub {
+  width: 80px;
+  height: 30px;
+  border-radius: 0 5% 5% 0;
+  border: 1px solid #494848;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.input__tel {
+  width: 220px;
+  height: 30px;
+  border-radius: 5% 0 0 5%;
+  border: 0 solid white; }
+
+.articles__bar1 {
+  background-color: #43b1d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px; }
+
+.articles__bar2 {
+  background-color: #3fb6c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px; }
+
+.articles__bar3 {
+  background-color: #3cbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px; }
+
+.articles__bar4 {
+  background-color: #37c3a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px; }
+
+.articles__logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  align-self: center;
+  margin-bottom: 10px; }
+
+.articles__image {
+  position: absolute;
+  right: 10px;
+  bottom: 15px; }
+
+.articles__image2 {
+  position: absolute;
+  right: 10px;
+  bottom: 15px; }
+
+.articles__image3 {
+  position: absolute;
+  right: 21px;
+  bottom: 12px; }
+
+.articles__image4 {
+  position: absolute;
+  right: 15px;
+  bottom: 15px; }
+
+.nav__contact__tel {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: white; }
+
+.logo_text {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: white; }
+
+.nav__menu__link {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: normal;
+  font-size: large;
+  color: #494848; }
+
+.section__main__text {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: normal;
+  font-size: large;
+  color: #494848; }
+
+.input__tel {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: normal;
+  font-size: large;
+  color: #494848; }
+
+.input__sub {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: normal;
+  color: #494848;
+  font-size: small; }
+
+.section__main__text_H {
+  font-family: Lato,Montserrat,Myriad Pro,sans-serif;
+  font-weight: bold;
+  color: #494848;
+  text-align: right;
+  height: 80px; }
+
+.articles__text {
+  font-family: Lato, Montserrat,Myriad Pro,sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  width: 90%;
+  line-height: 2; }
+
+h3 {
+  font-family: Lato,Montserrat,Myriad Pro,sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
+
+.logo_text {
+  text-shadow: 5px 5px 5px gray; }
+
+.section-cards {
+  border-left: 1px solid #e5e9f2;
+  border-right: 1px solid #e5e9f2;
+  border-bottom: 1px solid #e5e9f2; }
+
+.shell {
+  width: 550px;
+  height: 260px; }
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 3px solid #43b1d2;
+  border-radius: 0;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 97%;
+  height: 95%;
+  margin: auto; }
+
+.card__name__header {
+  width: 100%;
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: #494848;
+  text-align: right; }
+
+.card__name__text {
+  width: 100%;
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: smaller;
+  color: #43b1d2;
+  text-align: right; }
+
+.card__text {
+  align-self: center;
+  width: 90%;
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: smaller;
+  color: #494848;
+  text-align: left; }
+
+.card__contacts {
+  width: 50%;
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  color: #494848;
+  text-align: left;
+  align-self: flex-end; }
+
+.button {
+  background-color: #37c3a8;
+  width: 170px;
+  color: white;
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  border: 0 solid;
+  border-radius: 3%;
+  height: 40px; }
+
+.nav-link {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: center; }
+
+.section-cards {
+  display: flex;
+  width: 1140px;
+  margin: auto; }
+
+.card__button_more {
+  display: flex;
+  width: 1140px;
+  height: 70px;
+  margin: 0; }
+
+.button_grey {
+  background-color: #cbd4e6;
+  width: 170px;
+  color: #494848;
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  border: 0 solid;
+  border-radius: 3%;
+  height: 40px;
+  margin: auto; }
+
+#more {
+  display: none; }
+
+.footer_bar {
+  background-color: #43b1d2;
+  display: flex;
+  width: 100%;
+  height: 90px; }
+
+.footer__content {
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto; }
+
+.footer_main {
+  display: flex;
+  width: 100%;
+  background-color: #e5e9f2;
+  height: 400px;
+  flex-direction: column; }
+
+.simple_text {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
+
+.footer_main_contacts {
+  width: 190px; }
+
+.news {
+  background-color: #e5e9f2; }
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  background-color: #cbd4e6;
+  border: none;
+  text-align: center;
+  border-radius: 1%; }
+
+.article, .reviews {
+  height: 330px;
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-size: smaller;
+  text-align: left; }
+
+.arrow-right {
+  transform: rotate(180deg); }
+
+.slider {
+  padding-bottom: 10px; }
+
+#second_article, #third_article, #review-2, #review-3 {
+  display: none; }
+
+.icon-gplus, .icon-facebook, .icon-linkedin, .icon-vkontakte, .icon-youtube {
+  font-family: fontello;
+  font-style: normal;
+  font-weight: normal;
+  font-size: medium;
+  color: #9fa2a7; }
+
+.message_form {
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px solid #9fa2a7;
+  background-color: #e5e9f2;
+  margin-bottom: 10px; }
+
+.icon-right-dir {
+  color: #0087be;
+  line-height: 10px; }
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: #e5e9f2;
+  color: #9fa2a7;
+  font-family: Lato, Montserrat, Myriad Pro, sans-serif;
+  font-size: small; }
+
+.sub_footer {
+  border-radius: 35px;
+  background-color: #0087be;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: none;
+  width: 95px;
+  height: 30px;
+  font-family: Lato, Montserrat, Myriad Pro, sans-serif;
+  font-weight: bold;
+  font-size: small; }
+
+.footer_links, .footer_links:hover {
+  text-decoration: none;
+  color: #9fa2a7;
+  font-family: Lato, Montserrat, Myriad Pro, sans-serif;
+  text-align: center; }
+
+h6 {
+  font-family: Lato, Montserrat, Myriad Pro, sans-serif;
+  font-weight: bold;
+  color: #494848;
+  font-size: medium; }
+
+h4 {
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #494848;
+  text-align: left; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }

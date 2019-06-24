@@ -1,0 +1,87 @@
+
+@each $name, $color, $display, $align-items, $justify_content_bar, $FD_bar  in ('articles__bar1', $color($main_color_1), $display,$align-items, $justify_content_bar,$FD_bar  ),
+        ('articles__bar2',  $color($color_of_block2), $display,$align-items, $justify_content_bar,$FD_bar ),
+        ('articles__bar3',  $color($color_of_block3), $display, $align-items, $justify_content_bar,$FD_bar ),
+        ('articles__bar4', $color($main_color_3), $display, $align-items, $justify_content_bar,$FD_bar ) {
+  .#{$name}{
+    background-color: $color;
+    display: $display;
+    align-items: $align-items;
+    justify-content: $justify_content_bar;
+    flex-direction: $FD_bar;
+    height: 300px;
+  }
+}
+
+.articles__logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+@each $name, $position_logo, $R_move_logo, $B_move_logo  in ('articles__image',$position_logo, $R_move_logo, $B_move_logo ),
+        ('articles__image2',$position_logo,  $R_move_logo, $B_move_logo ),
+        ('articles__image3', $position_logo, $R_move_logo + 11px, $B_move_logo - 3px),
+        ('articles__image4', $position_logo, $R_move_logo + 5px, $B_move_logo) {
+  .#{$name}{
+    position: $position_logo  ;
+    right: $R_move_logo;
+    bottom: $B_move_logo;
+  }
+}
+
+@each $name, $FF_Calibri, $T_color  in ('nav__contact__tel',$FF_Calibri, $T_color ),
+        ('logo_text',$FF_Calibri,  $T_color ){
+  .#{$name}{
+    font-family: $FF_Calibri;
+    font-weight: bold;
+    font-size: large;
+    color: $T_color;
+  }
+}
+
+@each $name, $FF_Calibri,  $color_links  in ('nav__menu__link',$FF_Calibri, $color_links ),
+        ('section__main__text',$FF_Calibri, $color_links ),
+        ('input__tel',$FF_Calibri, $color_links ){
+  .#{$name}{
+    font-family: $FF_Calibri;
+    font-weight: normal;
+    font-size: large;
+    color: $color_links;
+  }
+}
+
+.input__sub{
+  font-family: Calibri, Candara, Segoe, Optima, Arial, sans-serif;
+  font-weight: normal;
+  color: $color_links;
+  font-size: small;
+}
+.section__main__text_H{
+  font-family: Lato,Montserrat,Myriad Pro,sans-serif;
+  font-weight: bold;
+  color: $color_links;
+  text-align: right;
+  height: $S_height - 50px;
+}
+.articles__text {
+  font-family: Lato, Montserrat,Myriad Pro,sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  width: 90%;
+  line-height: 2;
+}
+h3 {
+  font-family: Lato,Montserrat,Myriad Pro,sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.logo_text {
+  text-shadow:5px 5px 5px gray;
+}
