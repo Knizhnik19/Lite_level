@@ -1,0 +1,57 @@
+@media (max-width: 992px) {
+  header {
+    height: 50px;
+  }
+  main {
+    width: 100%;
+    height: 350px;
+  }
+  .nav__menu__link {
+    font-family: $FF_Calibri;
+    font-weight: bold;
+    font-size: small;
+    color: $color_links;
+  }
+  .section {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: $main_color_2;
+    background-image: none;
+  }
+  .section__main__text {
+    text-align: center;
+    font-family: $FF_Calibri;
+    font-weight: normal;
+    font-size: medium;
+    color: $color_links;
+    height: 30%;
+    margin-top: 10px;
+  }
+  .section__main__text_H {
+    font-family: Lato, Montserrat, Myriad Pro, sans-serif;
+    font-weight: bold;
+    color: $color_links;
+    font-size: large;
+    text-align: center;
+  }
+  .input {
+    position: relative;
+    width: 300px;
+  }
+  .article {
+    height: 430px;
+    font-family: $FF_Calibri;
+    font-size: smaller;
+    text-align: left;
+  }
+  .reviews{
+    height: 200px;
+    font-family: $FF_Calibri;
+    font-size: smaller;
+    text-align: left;
+  }
+  footer{
+    height: 100%;
+  }
+}

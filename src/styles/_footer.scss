@@ -156,6 +156,7 @@
   transform: rotate(180deg);
 }
 .slider{
+  background-color: $bg_sections;
   padding-bottom: 10px;
 }
 #second_article,#third_article, #review-2, #review-3 {
@@ -182,7 +183,7 @@
 }
 footer{
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-color: $bg_sections;
   color: $color_1;
   font-family: $FF_Lato;

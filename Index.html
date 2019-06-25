@@ -18,14 +18,14 @@
     <div class="container">
         <div class="top-nav">
             <div class="row align-items-end">
-                <div class="col-1">
+                <div class="col-1 d-none d-md-block">
                     <img src="src/img/Logo.png" alt="Единый центр записи">
                 </div>
-                <div class="col">
+                <div class="col d-none d-sm-block">
                     <span class="logo_text">Единый <br>Центр Записи</span>
                 </div>
-                <div class="col-8">
-                    <address class="nav__contact">
+                <div class="col-lg-8 col-12">
+                    <address class="nav__contact d-none d-sm-block">
                         <p class="nav__contact__tel"><img src="src/img/phone-square.png" alt="телефон" class="contacts__img">&nbsp &nbsp 80300 5000</p>
                     </address>
                     <nav class="top-nav_menu">
@@ -44,9 +44,9 @@
 </header>
 <main>
     <div class="section">
-        <div class="container ">
+        <div class="container">
             <section class="row justify-content-end">
-                <div class="col-7 align-self-end">
+                <div class="col-lg-7 col-12 align-self-end">
                     <p class="section__main__text">Всю необходимую информацию о том, как и в каком центре<br>
                         сделать МРТ, КТ и рентген исследованиях, cравнить интересующие<br>
                         Вас клиники, цены на диагностику и порядок прохождения<br>
@@ -61,6 +61,14 @@
                 </div>
             </section>
             <section class="row justify-content-end">
+
+                    <div class="col-2 d-block d-md-none">
+                        <img src="src/img/Logo.png" alt="Единый центр записи">
+                    </div>
+                    <div class="col d-block d-md-none">
+                        <span class="logo_text">Единый <br>Центр Записи</span>
+                    </div>
+
                 <form action="handler.php" enctype="multipart/form-data" method="post" class="row justify-content-end">
                     <div class="col align-self-end">
                         <label for="tel"></label>
@@ -77,7 +85,7 @@
 
 <div class="container">
     <div class="row no-gutters">
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
             <article class="articles__bar1">
                 <div class="articles__logo">
                     <img src="src/img/Vector%20Smart%20Object1.png" alt="лого розетки" class="articles__image">
@@ -88,7 +96,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
             <article class="articles__bar2">
                 <div class="articles__logo">
                     <img src="src/img/Vector%20Smart%20Object2.png" alt="лого розетки" class="articles__image2">
@@ -99,7 +107,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
             <article class="articles__bar3">
                 <div class="articles__logo">
                     <img src="src/img/Vector%20Smart%20Object3.png" alt="лого розетки" class="articles__image3">
@@ -110,7 +118,7 @@
                 </p>
             </article>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-lg-3">
             <article class="articles__bar4">
                 <div class="articles__logo">
                     <img src="src/img/Vector%20Smart%20Object4.png" alt="лого розетки" class="articles__image4">
@@ -139,7 +147,7 @@
 
     <section class="container" >
         <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -164,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -189,7 +197,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6 ">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -214,7 +222,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -239,7 +247,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -264,7 +272,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -289,22 +297,20 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col">
-                    <div class="card__button_more" id="show-more">
-                        <button type="button" class="button_grey">Все кабинеты</button>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 
+<div class="container w-100 pb-3">
+<div class="row justify-content-center align-items-center w-100">
+    <div class="col-4 col-md-2">
+          <button type="button" class="button_grey" id="show-more">Все кабинеты</button>
+        </div>
+</div>
+</div>
 
     <section class="container" id="more">
         <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -329,7 +335,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -354,7 +360,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -379,7 +385,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -404,7 +410,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -429,7 +435,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 ">
+            <div class="col-12 col-lg-6">
                 <div class="shell">
                     <div class="card">
                         <div class="card__logo">
@@ -460,7 +466,7 @@
 <section class="news">
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
                 <div class="row">
                     <div class="col"><h4 class="articles-header">Последние статьи</h4>
                     </div>
@@ -468,7 +474,7 @@
 
                 <article class="article" id="first_article">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-lg-6">
                             <img src="src/img/Layer%207.png" alt="фото">
                         </div>
                         <div class="col">
@@ -489,7 +495,7 @@
                 </article>
                 <article class="article" id="second_article">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-lg-6">
                             <img src="src/img/Layer%207.png" alt="фото">
                         </div>
                         <div class="col">
@@ -510,7 +516,7 @@
                 </article>
                 <article class="article" id="third_article">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-lg-6">
                             <img src="src/img/Layer%207.png" alt="фото">
                         </div>
                         <div class="col">
@@ -530,13 +536,26 @@
                     </div>
                 </article>
             </div>
-            <div class="col">
+            <div class="container d-inline-block d-lg-none w-100">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-4 d-lg-none">
+                        <button class="arrow" id="left_arrow">
+                            <img src="src/img/arrow-right.png" alt="стрелка влево">
+                        </button>
+                        <button class="arrow" id="right_arrow">
+                            <img src="src/img/arrow-right.png" alt="стрелка вправо" class="arrow-right">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col pt-4">
                 <div class="row">
                     <h4 class="col">
                         Отзывы о нас
                     </h4>
                 </div>
-
+                <div class="row">
+                    <div class="col">
                 <article class="reviews" id="review-1">
 
                     <p>
@@ -552,7 +571,8 @@
                         текста есть один неоспоримый плюс –
                     </p>
                 </article>
-
+                    </div>
+                </div>
                 <article class="reviews" id="review-2">
                     <p>
 
@@ -582,61 +602,76 @@
                         текста есть один неоспоримый плюс –
                     </p>
                 </article>
-
             </div>
-        </div>
-    </div>
-
-    <section class="slider">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-2">
-                        <button class="arrow" id="left_arrow">
-                            <img src="src/img/arrow-right.png" alt="стрелка влево">
-                        </button>
-                        <button class="arrow" id="right_arrow">
-                            <img src="src/img/arrow-right.png" alt="стрелка вправо" class="arrow-right">
-                        </button>
-                    </div>
-                    <div class="col-3">
-                        <button type="button" class="button">Читать подробнее</button>
-                    </div>
-                    <div class="col-2">
+            <div class="container d-inline-block d-lg-none w-100">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-4">
                         <button class="arrow" id="left_arrow_rew">
                             <img src="src/img/arrow-right.png" alt="стрелка влево">
                         </button>
                         <button class="arrow" id="right_arrow_rew">
-                            <img src="src/img/arrow-right.png" alt="стрелка влево" class="arrow-right">
+                            <img src="src/img/arrow-right.png" alt="стрелка вправо" class="arrow-right">
                         </button>
                     </div>
                 </div>
             </div>
-    </section>
-
+            <div class="container d-inline-block d-lg-none pt-2 w-100">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-4">
+                        <button type="button" class="button">Читать подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="slider">
+    <div class="container d-none d-lg-block w-100">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-2">
+                <button class="arrow" id="left_arrow">
+                    <img src="src/img/arrow-right.png" alt="стрелка влево">
+                </button>
+                <button class="arrow" id="right_arrow">
+                    <img src="src/img/arrow-right.png" alt="стрелка вправо" class="arrow-right">
+                </button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="button">Читать подробнее</button>
+            </div>
+            <div class="col-2">
+                <button class="arrow" id="left_arrow_rew">
+                    <img src="src/img/arrow-right.png" alt="стрелка влево">
+                </button>
+                <button class="arrow" id="right_arrow_rew">
+                    <img src="src/img/arrow-right.png" alt="стрелка влево" class="arrow-right">
+                </button>
+            </div>
+        </div>
+    </div>
 </section>
 
 <header>
     <div class="container h-100">
         <div class="row h-100  justify-content-center align-items-center">
-            <div class="col-1">
+            <div class="col-1 d-none d-lg-block">
                 <img src="src/img/Logo.png" alt="Единый центр записи">
             </div>
-            <div class="col-3">
+            <div class="col-3 d-none d-lg-block">
                 <span class="logo_text">Единый <br>Центр Записи</span>
             </div>
 
             <div class="col">
                 <div class="row align-items-center justify-content-end">
-                    <div class="col-3">
+                    <div class="col-4 col-lg-3">
                        <span class="simple_text">Заказать звонок</span>
                     </div>
-                        <form action="handler.php" enctype="multipart/form-data" method="post" class="col-5">
+                        <form action="handler.php" enctype="multipart/form-data" method="post" class="col-7 col-lg-5">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-10">
                                     <label for="tel"> </label>
                                     <input type="tel" name="telephone" pattern="[0-9]{9-13}" placeholder="&nbsp &nbsp +380" id="tel" class="input__tel">
                                 </div>
-                                <div class="col-1">
+                                <div class="col-1 col-lg-1">
                                     <input type="submit" value="Отправить" class="input__sub">
                                 </div>
                             </div>
@@ -649,24 +684,13 @@
 
 <footer>
     <div class="container h-100 align-items-center">
-        <div class="row h-25 justify-content-center align-items-center">
+        <div class="row h-50 justify-content-center align-items-start pt-5">
 
-            <div class="col">
-                <h6>Get in Touch</h6>
-            </div>
-            <div class="col">
-                <h6>Quick Links</h6>
-            </div>
-            <div class="col">
-                <h6>Our Services</h6>
-            </div>
-            <div class="col">
-                <h6>Enquiry Form</h6>
-            </div>
-        </div>
+            <div class="col-6 col-lg-3">
+                <div class="row mb-4">
+                <h6 class="col">Get in Touch</h6>
+                </div>
 
-        <div class="row justify-content-center">
-            <div class="col">
                 <div class="row mb-4">
                     <div class="col-4 justify-content-center">
                         <img src="src/img/email.png" alt="лого имейла">
@@ -704,24 +728,45 @@
                     <div class="col"><p class="icon-linkedin"></p></div>
                 </div>
             </div>
-            <div class="col">
-                <p class="icon-right-dir"><a href="#" class="footer_links"> About us </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Blog </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Contact us </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Faq </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Insurance </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Contact us </a></p>
+
+            <div class="col-6 col-lg-3">
+                <div class="row mb-4">
+                <h6 class="col">Quick Links</h6>
+                </div>
+                <div class="row mb-4 justify-content-center">
+                    <div class="col">
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> About us </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Blog </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Contact us </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Faq </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Insurance </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Contact us </a></p>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Work Injuries</a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Sport Injuries </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Cold Laser Therapy </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Massage Therapy </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Physiotherapy </a></p>
-                <p class="icon-right-dir"><a href="#" class="footer_links"> Chiropratic Therapy </a></p>
+
+            <div class="col-6 col-lg-3">
+                <div class="row mb-4">
+                <h6 class="col">Our Services</h6>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col">
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Work Injuries</a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Sport Injuries </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Cold Laser Therapy </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Massage Therapy </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Physiotherapy </a></p>
+                        <p class="icon-right-dir"><a href="#" class="footer_links"> Chiropratic Therapy </a></p>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <div class="row">
+
+            <div class="col-6 col-lg-3">
+                <div class="row mb-4">
+                    <h6>Enquiry Form</h6>
+                </div>
+                <div class="row mb-4 justify-content-center">
                     <div class="col">
                         <form action="handler.php" enctype="multipart/form-data" method="post">
                             <p>Name</p>
@@ -740,27 +785,23 @@
                             </label>
                         </form>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col">
                         <button type="submit" value="Submit" class="sub_footer">submit</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 </footer>
-
 <header>
-    <div class="container h-100">
+    <div class="container">
         <div class="row h-100 align-items-center justify-content-center">
-            <div class="col">
+            <div class="col-12">
                 <p class="simple_text">Copyright © 2017.</p>
             </div>
         </div>
     </div>
 </header>
-
 <script src="src/js/jquery-3.3.1.slim.min.js"></script>
 <script src="src/js/popper.min.js" ></script>
 <script src="src/js/bootstrap.min.js" ></script>
